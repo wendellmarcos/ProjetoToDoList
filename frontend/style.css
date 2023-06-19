@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+
+* {
+    margin: 5 auto;
+    padding: 5px auto;
+    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+
+
+}
+
+
+.campoAddnovasTarefas,
+.campoEditarTarefas {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    display: block;
+    padding: 10rem 10rem 1rem 10rem;
+    border-radius: 20px 20 20px 20;
+    
+    margin: 1em auto;
+    outline: auto;
+    border: 1px solid #ccc;
+    font-weight: bold;
+
+}
+
+.dataAddTarefa{
+    width: 200px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px 20 20px 20;
+    margin-left: 10px;
+    display: block;
+    cursor: pointer;
+    outline: auto;
+    border: 5px solid #ccc;
+    font-weight: bold;
+
+}
+
+.boxCadastrosTarefas, .dadosCadastrais{
+    border: 10px solid #000
+}
+
+.escritaLogin{
+    border: 10px solid #000
+}
+
+
+topo {
+    margin-top: 20px auto;
+    border-radius: 10px;
+}
+
+ul{
+    border: 10px solid #000;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    
+}
+
+
+li {
+    padding-left: 20px;
+    border: 1px solid #000
+    
+        
+}
+
+
+.tarefasEmAberto,
+.tarefasExecutadas {
+
+    margin: 25px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+
+}
+
+.senha,
+.email,
+.telefone,
+.nome,
+.emailLogin,
+.senhaLogin,
+.confirmarSenha {
+    margin: 5px auto;
+    width: 450px;
+    outline: auto;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+input.nome {
+    background-image: url(../frontend/imagens/fundo/user2.svg);
+    padding-left: 40px;
+    border: none;
+}
+
+input.email,
+input.emailLogin {
+    background-image: url(../frontend/imagens/fundo/Email-Icon-White-on-Black\ \(1\).svg);
+    border: none;
+    padding-left: 40px
+}
+
+input.senha,
+input.senhaLogin,
+.confirmarSenha {
+    background-image: url(../frontend/imagens/fundo/lock2.svg);
+    padding-left: 40px;
+    border: none;
+}
+
+input.telefone {
+    background-image: url(../frontend/imagens/fundo/tel.svg);
+    padding-left: 40px;
+    border: none;
+}
+
+input {
+    width: 20em;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+
+.boxCadastro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+    margin: auto;
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.btnCadastrar,
+.btnEntrarLogin,
+.btnAddTarefa,
+.btnEditarTarefa,
+.btnDeletarTarefa {
+    margin: 10px auto;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+
+cadastro {
+    background-color: black;
+}
